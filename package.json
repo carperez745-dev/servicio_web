@@ -1,0 +1,15 @@
+{
+  "name": "api-autenticacion-ga7",
+  "version": "1.0.0",
+  "description": "Servicio web REST para registro e inicio de sesión (GA7-220501096-AA5-EV01)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/pruebas.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2"
+  }
+}
